@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ahmet Öz - CV</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-      line-height: 1.6;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senin Adın - CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Ahmet Öz</h1>
-  <p><strong>Email:</strong> ahmet@example.com</p>
-  <p><strong>Hakkımda:</strong> Yazılım geliştirici, web tasarımcı, açık kaynak meraklısı.</p>
+  <div class="container">
+    <header>
+      <img src="assets/profil.jpg" alt="Profil Fotoğrafı" class="profile-img"/>
+      <h1>Esat Aksoy</h1>
+      <p class="subtitle">Frontend Developer | UI/UX Enthusiast</p>
+      <div class="social-links">
+        <a href="mesataksoy@gmail.com">Email</a> · 
+        <a href="www.linkedin.com/in/meaksoy" target="_blank">LinkedIn</a> · 
+        <a href="https://github.com/meaksoy" target="_blank">GitHub</a>
+      </div>
+    </header>
 
-  <h2>Deneyim</h2>
-  <ul>
-    <li>Frontend Developer – ABC Teknoloji (2022–2024)</li>
-    <li>Stajyer – XYZ Yazılım (2021)</li>
-  </ul>
+    <section>
+      <h2>About</h2>
+      <p>Merhaba! Ben modern web arayüzleri geliştiren ve kullanıcı deneyimine önem veren bir geliştiriciyim.</p>
+    </section>
 
-  <h2>Eğitim</h2>
-  <ul>
-    <li>Bilgisayar Mühendisliği – İstanbul Üniversitesi (2017–2021)</li>
-  </ul>
+    <section>
+      <h2>Talents</h2>
+      <div class="skills">
+        <div class="skill">
+          <span>HTML/CSS</span>
+          <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>React</span>
+          <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Information Security Officer</strong> – ABC Yazılım (2022 - Günümüz)</li>
+        <li><strong>Trainee</strong> – XYZ Şirketi (2021)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projeler</h2>
+      <ul>
+        <li><a href="https://github.com/sensin/todolist">📝 To-Do List Uygulaması</a> – React ile yapılmış görev takip aracı</li>
+        <li><a href="https://github.com/sensin/kisisel-blog">📰 Kişisel Blog</a> – Markdown destekli blog altyapısı</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Bilgisayar Mühendisliği – İstanbul Üniversitesi (2017–2021)</li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
